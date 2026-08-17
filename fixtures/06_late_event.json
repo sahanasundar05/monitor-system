@@ -1,0 +1,13 @@
+{
+  "description": "An event with a timestamp older than the patient's high-watermark arrives after newer events -> processed normally (using event-time windowing) but flagged 'late' for clinical review.",
+  "events": [
+    {"timestamp": 1723900500.0, "sensor_type": "tremor", "value": 0.3, "patient_id": "P006", "event_id": "evt-050"},
+    {"timestamp": 1723900520.0, "sensor_type": "tremor", "value": 0.1, "patient_id": "P006", "event_id": "evt-051"},
+    {"timestamp": 1723900490.0, "sensor_type": "drop_count", "value": 3.0, "patient_id": "P006", "event_id": "evt-052"}
+  ],
+  "expected": [
+    {"event_id": "evt-050", "decision": "none", "flags": []},
+    {"event_id": "evt-051", "decision": "none", "flags": []},
+    {"event_id": "evt-052", "decision": "none", "flags": ["late"]}
+  ]
+}

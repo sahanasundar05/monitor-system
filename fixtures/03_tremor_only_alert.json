@@ -1,0 +1,9 @@
+{
+  "description": "Only tremor score exceeds threshold, no drip anomaly nearby -> tremor_alert.",
+  "events": [
+    {"timestamp": 1723900200.0, "sensor_type": "tremor", "value": 0.91, "patient_id": "P003", "event_id": "evt-020"}
+  ],
+  "expected": [
+    {"event_id": "evt-020", "decision": "tremor_alert"}
+  ]
+}

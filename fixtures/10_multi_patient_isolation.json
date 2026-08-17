@@ -1,0 +1,15 @@
+{
+  "description": "Two patients' events are interleaved. Patient P009's high tremor must not correlate with patient P010's high drip rate -- patient_id isolation must hold.",
+  "events": [
+    {"timestamp": 1723900900.0, "sensor_type": "tremor", "value": 0.95, "patient_id": "P009", "event_id": "evt-090"},
+    {"timestamp": 1723900901.0, "sensor_type": "drop_count", "value": 25.0, "patient_id": "P010", "event_id": "evt-091"},
+    {"timestamp": 1723900902.0, "sensor_type": "drop_count", "value": 2.0, "patient_id": "P009", "event_id": "evt-092"},
+    {"timestamp": 1723900903.0, "sensor_type": "tremor", "value": 0.1, "patient_id": "P010", "event_id": "evt-093"}
+  ],
+  "expected": [
+    {"event_id": "evt-090", "decision": "tremor_alert"},
+    {"event_id": "evt-091", "decision": "iv_alert"},
+    {"event_id": "evt-092", "decision": "tremor_alert", "note": "P009's earlier high tremor (evt-090) is still within the 10s window, so this normal drip reading is still evaluated as part of an active tremor episode. Crucially it is NOT affected by P010's high drip reading (evt-091), proving patient isolation."},
+    {"event_id": "evt-093", "decision": "iv_alert", "note": "Symmetric case for P010: earlier high drip (evt-091) still in window; unaffected by P009's tremor, proving isolation holds both directions."}
+  ]
+}

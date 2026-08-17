@@ -1,0 +1,11 @@
+{
+  "description": "Same event_id submitted twice -> second submission is flagged 'duplicate' and reuses the original decision; no new alert is generated.",
+  "events": [
+    {"timestamp": 1723900400.0, "sensor_type": "drop_count", "value": 22.0, "patient_id": "P005", "event_id": "evt-040"},
+    {"timestamp": 1723900400.0, "sensor_type": "drop_count", "value": 22.0, "patient_id": "P005", "event_id": "evt-040"}
+  ],
+  "expected": [
+    {"event_id": "evt-040", "decision": "iv_alert", "flags": []},
+    {"event_id": "evt-040", "decision": "iv_alert", "flags": ["duplicate"]}
+  ]
+}

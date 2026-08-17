@@ -1,0 +1,12 @@
+{
+  "description": "Tremor score > 0.7 and drip rate > 10 mL/hr within 10s -> tremor prioritized as primary signal.",
+  "events": [
+    {"timestamp": 1723900000.0, "sensor_type": "drop_count", "value": 14.2, "patient_id": "P001", "event_id": "evt-001"},
+    {"timestamp": 1723900004.5, "sensor_type": "tremor", "value": 0.82, "patient_id": "P001", "event_id": "evt-002"}
+  ],
+  "note": "evt-001 is evaluated against the window seen so far (drip only) -> iv_alert. When evt-002 arrives 4.5s later, both signals are now in-window -> ambiguity rule fires and tremor is prioritized. Decisions are never retroactively revised (see README: 'per-event window evaluation').",
+  "expected": [
+    {"event_id": "evt-001", "decision": "iv_alert"},
+    {"event_id": "evt-002", "decision": "tremor_alert"}
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "description": "Only drip rate exceeds threshold, no tremor nearby -> iv_alert.",
+  "events": [
+    {"timestamp": 1723900100.0, "sensor_type": "drop_count", "value": 18.0, "patient_id": "P002", "event_id": "evt-010"}
+  ],
+  "expected": [
+    {"event_id": "evt-010", "decision": "iv_alert"}
+  ]
+}

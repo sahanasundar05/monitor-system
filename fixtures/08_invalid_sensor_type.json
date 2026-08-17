@@ -1,0 +1,9 @@
+{
+  "description": "Event with an unrecognized sensor_type -> rejected.",
+  "events": [
+    {"timestamp": 1723900700.0, "sensor_type": "heart_rate", "value": 88, "patient_id": "P007", "event_id": "evt-070"}
+  ],
+  "expected": [
+    {"event_id": "evt-070", "decision": "rejected"}
+  ]
+}

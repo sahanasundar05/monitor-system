@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Monitor Review — Conflict Decisions</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  :root {
+    --ink: #1b2430;
+    --ink-soft: #55606e;
+    --line: #dde2e7;
+    --panel: #ffffff;
+    --floor: #f3f5f7;
+    --tremor: #a6472e;
+    --tremor-bg: #fbeae5;
+    --iv: #1f5f8b;
+    --iv-bg: #e7f1f7;
+    --none: #55606e;
+    --flag: #9a6b00;
+    --flag-bg: #fff4dd;
+    --mono: "IBM Plex Mono", "SFMono-Regular", Consolas, monospace;
+    --sans: "IBM Plex Sans", "Inter", -apple-system, sans-serif;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--floor);
+    color: var(--ink);
+    font-family: var(--sans);
+    -webkit-font-smoothing: antialiased;
+  }
+  header {
+    background: var(--panel);
+    border-bottom: 1px solid var(--line);
+    padding: 20px 28px;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+  header h1 {
+    font-size: 17px;
+    font-weight: 650;
+    letter-spacing: -0.01em;
+    margin: 0;
+  }
+  header .eyebrow {
+    font-family: var(--mono);
+    font-size: 11px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--ink-soft);
+    margin-bottom: 3px;
+  }
+  .controls {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .controls input[type=text], .controls select {
+    font-family: var(--sans);
+    font-size: 13px;
+    padding: 7px 10px;
+    border: 1px solid var(--line);
+    border-radius: 6px;
+    background: var(--panel);
+    color: var(--ink);
+  }
+  button {
+    font-family: var(--sans);
+    font-size: 13px;
+    font-weight: 550;
+    padding: 7px 14px;
+    border-radius: 6px;
+    border: 1px solid var(--ink);
+    background: var(--ink);
+    color: #fff;
+    cursor: pointer;
+  }
+  button.ghost {
+    background: transparent;
+    color: var(--ink);
+    border-color: var(--line);
+  }
+  main { padding: 22px 28px 60px; max-width: 1200px; margin: 0 auto; }
+  .summary-row {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 12px;
+    margin-bottom: 22px;
+  }
+  .stat {
+    background: var(--panel);
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    padding: 14px 16px;
+  }
+  .stat .n { font-size: 24px; font-weight: 650; font-variant-numeric: tabular-nums; }
+  .stat .label { font-size: 12px; color: var(--ink-soft); margin-top: 2px; }
+  .needs-review .n { color: var(--flag); }
+
+  table { width: 100%; border-collapse: collapse; background: var(--panel); border: 1px solid var(--line); border-radius: 8px; overflow: hidden; }
+  thead th {
+    text-align: left;
+    font-size: 11px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: var(--ink-soft);
+    padding: 10px 14px;
+    border-bottom: 1px solid var(--line);
+    background: #fafbfc;
+  }
+  tbody td {
+    padding: 11px 14px;
+    font-size: 13px;
+    border-bottom: 1px solid var(--line);
+    vertical-align: top;
+  }
+  tbody tr:last-child td { border-bottom: none; }
+  tbody tr.flagged { background: var(--flag-bg); }
+  .pid, .eid { font-family: var(--mono); font-size: 12px; }
+  .badge {
+    display: inline-block;
+    padding: 2px 8px;
+    border-radius: 999px;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.01em;
+  }
+  .badge.tremor_alert { color: var(--tremor); background: var(--tremor-bg); }
+  .badge.iv_alert { color: var(--iv); background: var(--iv-bg); }
+  .badge.none { color: var(--none); background: #eceff2; }
+  .badge.rejected { color: #7a1f1f; background: #fbe3e3; }
+  .flagpill {
+    display: inline-block;
+    margin-right: 4px;
+    padding: 1px 7px;
+    border-radius: 999px;
+    font-size: 10.5px;
+    font-family: var(--mono);
+    color: var(--flag);
+    background: #ffe8b3;
+  }
+  .logic { color: var(--ink-soft); font-size: 12px; max-width: 340px; }
+  .empty { padding: 60px 20px; text-align: center; color: var(--ink-soft); font-size: 13px; }
+  .source-note { font-size: 12px; color: var(--ink-soft); margin-bottom: 14px; }
+  code.inline { font-family: var(--mono); background: #eceff2; padding: 1px 5px; border-radius: 4px; }
+</style>
+</head>
+<body>
+
+<header>
+  <div>
+    <div class="eyebrow">Dual-mode monitor · human review</div>
+    <h1>Conflict decisions awaiting clinician review</h1>
+  </div>
+  <div class="controls">
+    <select id="apiSelect">
+      <option value="http://localhost:8000/decisions">Live: /decisions</option>
+    </select>
+    <input id="patientFilter" type="text" placeholder="Filter patient_id…">
+    <select id="decisionFilter">
+      <option value="">All decisions</option>
+      <option value="tremor_alert">tremor_alert</option>
+      <option value="iv_alert">iv_alert</option>
+      <option value="none">none</option>
+      <option value="rejected">rejected</option>
+    </select>
+    <label style="font-size:13px; display:flex; align-items:center; gap:6px;">
+      <input type="checkbox" id="flaggedOnly"> flagged / ambiguous only
+    </label>
+    <button class="ghost" id="loadFileBtn">Load JSONL file…</button>
+    <input type="file" id="fileInput" accept=".jsonl,.json" style="display:none">
+    <button id="refreshBtn">Refresh</button>
+  </div>
+</header>
+
+<main>
+  <p class="source-note">
+    Pulls from the Flask backend's <code class="inline">GET /decisions</code> endpoint
+    (run <code class="inline">python backend/app.py</code>), or load an audit log
+    <code class="inline">.jsonl</code> file directly — e.g. an output from
+    <code class="inline">backend/replay.py</code>.
+  </p>
+
+  <div class="summary-row" id="summaryRow"></div>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Patient</th>
+        <th>Event ID</th>
+        <th>Decision</th>
+        <th>Flags</th>
+        <th>Resolution logic</th>
+        <th>Event time</th>
+      </tr>
+    </thead>
+    <tbody id="tbody"></tbody>
+  </table>
+  <div class="empty" id="emptyState" style="display:none;">No decisions loaded yet.</div>
+</main>
+
+<script>
+let records = [];
+
+function badgeFor(decision) {
+  return `<span class="badge ${decision}">${decision}</span>`;
+}
+
+function isFlagged(r) {
+  return (r.flags && r.flags.length > 0) || r.decision === 'rejected';
+}
+
+function fmtTime(ts) {
+  if (!ts) return '—';
+  try { return new Date(ts * 1000).toISOString().replace('T', ' ').slice(0, 19) + ' UTC'; }
+  catch (e) { return String(ts); }
+}
+
+function render() {
+  const pFilter = document.getElementById('patientFilter').value.trim().toLowerCase();
+  const dFilter = document.getElementById('decisionFilter').value;
+  const flaggedOnly = document.getElementById('flaggedOnly').checked;
+
+  let filtered = records.filter(r => {
+    if (pFilter && !(r.patient_id || '').toLowerCase().includes(pFilter)) return false;
+    if (dFilter && r.decision !== dFilter) return false;
+    if (flaggedOnly && !isFlagged(r)) return false;
+    return true;
+  });
+
+  const tbody = document.getElementById('tbody');
+  const empty = document.getElementById('emptyState');
+
+  if (filtered.length === 0) {
+    tbody.innerHTML = '';
+    empty.style.display = 'block';
+  } else {
+    empty.style.display = 'none';
+    tbody.innerHTML = filtered.map(r => `
+      <tr class="${isFlagged(r) ? 'flagged' : ''}">
+        <td class="pid">${r.patient_id ?? '—'}</td>
+        <td class="eid">${r.event_id ?? '—'}</td>
+        <td>${badgeFor(r.decision)}</td>
+        <td>${(r.flags || []).map(f => `<span class="flagpill">${f}</span>`).join('') || '—'}</td>
+        <td class="logic">${r.resolution_logic ?? r.reason ?? ''}</td>
+        <td class="eid">${fmtTime(r.decision_timestamp)}</td>
+      </tr>
+    `).join('');
+  }
+
+  const total = records.length;
+  const flaggedCount = records.filter(isFlagged).length;
+  const tremor = records.filter(r => r.decision === 'tremor_alert').length;
+  const iv = records.filter(r => r.decision === 'iv_alert').length;
+  const patients = new Set(records.map(r => r.patient_id)).size;
+
+  document.getElementById('summaryRow').innerHTML = `
+    <div class="stat"><div class="n">${total}</div><div class="label">total decisions</div></div>
+    <div class="stat needs-review"><div class="n">${flaggedCount}</div><div class="label">need review</div></div>
+    <div class="stat"><div class="n">${tremor}</div><div class="label">tremor alerts</div></div>
+    <div class="stat"><div class="n">${iv}</div><div class="label">IV alerts</div></div>
+    <div class="stat"><div class="n">${patients}</div><div class="label">patients</div></div>
+  `;
+}
+
+async function loadFromApi() {
+  const url = document.getElementById('apiSelect').value;
+  try {
+    const resp = await fetch(url);
+    records = await resp.json();
+  } catch (e) {
+    records = [];
+    alert('Could not reach ' + url + '. Is the backend running (python backend/app.py)?');
+  }
+  render();
+}
+
+document.getElementById('refreshBtn').addEventListener('click', loadFromApi);
+document.getElementById('patientFilter').addEventListener('input', render);
+document.getElementById('decisionFilter').addEventListener('change', render);
+document.getElementById('flaggedOnly').addEventListener('change', render);
+
+document.getElementById('loadFileBtn').addEventListener('click', () => document.getElementById('fileInput').click());
+document.getElementById('fileInput').addEventListener('change', async (e) => {
+  const file = e.target.files[0];
+  if (!file) return;
+  const text = await file.text();
+  if (file.name.endsWith('.jsonl')) {
+    records = text.split('\n').filter(l => l.trim()).map(l => JSON.parse(l));
+  } else {
+    const parsed = JSON.parse(text);
+    records = Array.isArray(parsed) ? parsed : (parsed.decisions || []);
+  }
+  render();
+});
+
+// initial attempt, silently no-ops if backend isn't running
+loadFromApi();
+</script>
+
+</body>
+</html>

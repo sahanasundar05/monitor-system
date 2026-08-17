@@ -1,0 +1,11 @@
+{
+  "description": "Both signals below their thresholds -> no alert.",
+  "events": [
+    {"timestamp": 1723900300.0, "sensor_type": "drop_count", "value": 6.0, "patient_id": "P004", "event_id": "evt-030"},
+    {"timestamp": 1723900302.0, "sensor_type": "tremor", "value": 0.2, "patient_id": "P004", "event_id": "evt-031"}
+  ],
+  "expected": [
+    {"event_id": "evt-030", "decision": "none"},
+    {"event_id": "evt-031", "decision": "none"}
+  ]
+}

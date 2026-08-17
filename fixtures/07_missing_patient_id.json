@@ -1,0 +1,9 @@
+{
+  "description": "Event missing patient_id -> rejected, no alert, no crash.",
+  "events": [
+    {"timestamp": 1723900600.0, "sensor_type": "drop_count", "value": 12.0, "event_id": "evt-060"}
+  ],
+  "expected": [
+    {"event_id": "evt-060", "decision": "rejected"}
+  ]
+}

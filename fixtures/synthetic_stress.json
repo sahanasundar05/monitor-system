@@ -1,0 +1,2298 @@
+{
+  "description": "synthetically generated stress/edge-case stream",
+  "events": [
+    {
+      "timestamp": 1786954755.073,
+      "sensor_type": "tremor",
+      "value": 0.245,
+      "patient_id": "P100",
+      "event_id": "b4b1d9c3"
+    },
+    {
+      "timestamp": 1786954755.537,
+      "sensor_type": "tremor",
+      "value": 0.032,
+      "patient_id": "P104",
+      "event_id": "661e4f02"
+    },
+    {
+      "timestamp": 1786954757.529,
+      "sensor_type": "tremor",
+      "value": 0.22,
+      "patient_id": "P104",
+      "event_id": "4558d624"
+    },
+    {
+      "timestamp": 1786954740.441,
+      "sensor_type": "tremor",
+      "value": 0.34,
+      "patient_id": "P104",
+      "event_id": "4fdfac76"
+    },
+    {
+      "timestamp": 1786954756.5,
+      "sensor_type": "tremor",
+      "value": 0.102,
+      "patient_id": "P101",
+      "event_id": "bd98e69e"
+    },
+    {
+      "timestamp": 1786954760.939,
+      "sensor_type": "tremor",
+      "value": 0.536,
+      "patient_id": "P102",
+      "event_id": "8837f5e0"
+    },
+    {
+      "timestamp": 1786954764.67,
+      "sensor_type": "tremor",
+      "value": 0.577,
+      "patient_id": "P104",
+      "event_id": "07802e06"
+    },
+    {
+      "timestamp": 1786954764.67,
+      "sensor_type": "tremor",
+      "value": 0.577,
+      "patient_id": "P104",
+      "event_id": "07802e06"
+    },
+    {
+      "timestamp": 1786954768.828,
+      "sensor_type": "drop_count",
+      "value": 25.99,
+      "patient_id": "P102",
+      "event_id": "719df8ca"
+    },
+    {
+      "timestamp": 1786954759.777,
+      "sensor_type": "drop_count",
+      "value": 20.11,
+      "patient_id": "P101",
+      "event_id": "d871c6bb"
+    },
+    {
+      "timestamp": 1786954764.283,
+      "sensor_type": "drop_count",
+      "value": 4.9,
+      "patient_id": "P101",
+      "event_id": "12e5ae20"
+    },
+    {
+      "timestamp": 1786954766.817,
+      "sensor_type": "tremor",
+      "value": 0.843,
+      "patient_id": "P104",
+      "event_id": "7e46d13a"
+    },
+    {
+      "timestamp": 1786954757.085,
+      "sensor_type": "tremor",
+      "value": 0.066,
+      "patient_id": "P104",
+      "event_id": "21cd2ca2"
+    },
+    {
+      "timestamp": 1786954773.889,
+      "sensor_type": "tremor",
+      "value": 0.213,
+      "patient_id": "P104",
+      "event_id": "9486fae8"
+    },
+    {
+      "timestamp": 1786954766.769,
+      "sensor_type": "drop_count",
+      "value": 22.35,
+      "patient_id": "P101",
+      "event_id": "8eac5c88"
+    },
+    {
+      "timestamp": 1786954777.385,
+      "sensor_type": "drop_count",
+      "value": 29.92,
+      "patient_id": "P104",
+      "event_id": "77d0a386"
+    },
+    {
+      "timestamp": 1786954756.719,
+      "sensor_type": "drop_count",
+      "value": 23.76,
+      "patient_id": "P100",
+      "event_id": "78bd99d3"
+    },
+    {
+      "timestamp": 1786954758.854,
+      "sensor_type": "drop_count",
+      "value": 20.41,
+      "patient_id": "P103",
+      "event_id": "e6210add"
+    },
+    {
+      "timestamp": 1786954770.165,
+      "sensor_type": "tremor",
+      "patient_id": "P102",
+      "event_id": "5b2f04eb"
+    },
+    {
+      "timestamp": 1786954783.6,
+      "sensor_type": "drop_count",
+      "value": 26.12,
+      "patient_id": "P104",
+      "event_id": "b80d9427"
+    },
+    {
+      "timestamp": 1786954770.074,
+      "sensor_type": "drop_count",
+      "value": 16.18,
+      "patient_id": "P101",
+      "event_id": "fa4af34a"
+    },
+    {
+      "timestamp": 1786954760.211,
+      "sensor_type": "drop_count",
+      "value": 3.36,
+      "patient_id": "P101",
+      "event_id": "3f10678d"
+    },
+    {
+      "timestamp": 1786954777.255,
+      "sensor_type": "tremor",
+      "value": 0.239,
+      "patient_id": "P102",
+      "event_id": "7a5624d9"
+    },
+    {
+      "timestamp": 1786954765.474,
+      "sensor_type": "drop_count",
+      "value": 3.85,
+      "patient_id": "P103",
+      "event_id": "abbe6049"
+    },
+    {
+      "timestamp": 1786954787.273,
+      "sensor_type": "drop_count",
+      "value": 27.87,
+      "patient_id": "P104",
+      "event_id": "00fd6fc0"
+    },
+    {
+      "timestamp": 1786954773.437,
+      "sensor_type": "tremor",
+      "value": 0.438,
+      "patient_id": "P103",
+      "event_id": "80dd7d30"
+    },
+    {
+      "timestamp": 1786954777.913,
+      "sensor_type": "drop_count",
+      "patient_id": "P102",
+      "event_id": "60a3efdd"
+    },
+    {
+      "timestamp": 1786954763.666,
+      "sensor_type": "drop_count",
+      "value": 15.42,
+      "patient_id": "P100",
+      "event_id": "1ad541a9"
+    },
+    {
+      "timestamp": 1786954792.095,
+      "sensor_type": "drop_count",
+      "value": 23.54,
+      "patient_id": "P104",
+      "event_id": "01d2c8a7"
+    },
+    {
+      "timestamp": 1786954776.595,
+      "sensor_type": "tremor",
+      "value": 0.467,
+      "patient_id": "P103",
+      "event_id": "c4644ef4"
+    },
+    {
+      "timestamp": 1786954764.621,
+      "sensor_type": "tremor",
+      "value": 0.801,
+      "patient_id": "P100",
+      "event_id": "e0275d85"
+    },
+    {
+      "timestamp": 1786954773.738,
+      "sensor_type": "tremor",
+      "value": 0.463,
+      "patient_id": "P101",
+      "event_id": "b55312f0"
+    },
+    {
+      "timestamp": 1786954793.329,
+      "sensor_type": "drop_count",
+      "value": 29.07,
+      "patient_id": "P104",
+      "event_id": "42963069"
+    },
+    {
+      "timestamp": 1786954780.705,
+      "sensor_type": "tremor",
+      "value": 0.902,
+      "patient_id": "P103",
+      "event_id": "7180cfd2"
+    },
+    {
+      "timestamp": 1786954780.705,
+      "sensor_type": "tremor",
+      "value": 0.902,
+      "patient_id": "P103",
+      "event_id": "7180cfd2"
+    },
+    {
+      "timestamp": 1786954783.344,
+      "sensor_type": "tremor",
+      "value": 0.155,
+      "patient_id": "P103",
+      "event_id": "0e159611"
+    },
+    {
+      "timestamp": 1786954794.286,
+      "sensor_type": "tremor",
+      "value": 0.057,
+      "patient_id": "P104",
+      "event_id": "6d14059a"
+    },
+    {
+      "timestamp": 1786954774.664,
+      "sensor_type": "drop_count",
+      "value": 25.54,
+      "patient_id": "P101",
+      "event_id": "c8b1d404"
+    },
+    {
+      "timestamp": 1786954784.743,
+      "sensor_type": "drop_count",
+      "value": 17.37,
+      "patient_id": "P103",
+      "event_id": "b54dae2d"
+    },
+    {
+      "timestamp": 1786954798.707,
+      "sensor_type": "tremor",
+      "value": 0.204,
+      "patient_id": "P104",
+      "event_id": "5bd2f871"
+    },
+    {
+      "timestamp": 1786954781.842,
+      "sensor_type": "drop_count",
+      "value": 0.28,
+      "patient_id": "P102",
+      "event_id": "584a22df"
+    },
+    {
+      "timestamp": 1786954800.806,
+      "sensor_type": "tremor",
+      "value": 0.132,
+      "patient_id": "P104",
+      "event_id": "d3379197"
+    },
+    {
+      "timestamp": 1786954783.525,
+      "sensor_type": "tremor",
+      "value": 0.612,
+      "patient_id": "P102",
+      "event_id": "6d756b0c"
+    },
+    {
+      "timestamp": 1786954766.268,
+      "sensor_type": "tremor",
+      "value": 0.932,
+      "patient_id": "P102",
+      "event_id": "a686c7e2"
+    },
+    {
+      "timestamp": 1786954772.163,
+      "sensor_type": "drop_count",
+      "value": 7.93,
+      "patient_id": "P100",
+      "event_id": "9568648f"
+    },
+    {
+      "timestamp": 1786954788.561,
+      "sensor_type": "tremor",
+      "value": 0.204,
+      "patient_id": "P102",
+      "event_id": "2b4767f9"
+    },
+    {
+      "timestamp": 1786954773.355,
+      "sensor_type": "tremor",
+      "value": 0.829,
+      "patient_id": "P100",
+      "event_id": "ff509359"
+    },
+    {
+      "timestamp": 1786954790.273,
+      "sensor_type": "tremor",
+      "value": 0.552,
+      "patient_id": "P102",
+      "event_id": "34f6db3a"
+    },
+    {
+      "timestamp": 1786954790.273,
+      "sensor_type": "tremor",
+      "value": 0.552,
+      "patient_id": "P102",
+      "event_id": "34f6db3a"
+    },
+    {
+      "timestamp": 1786954779.256,
+      "sensor_type": "tremor",
+      "value": 0.583,
+      "patient_id": "P101",
+      "event_id": "3e94bbd4"
+    },
+    {
+      "timestamp": 1786954780.597,
+      "sensor_type": "drop_count",
+      "value": 20.46,
+      "patient_id": "P100",
+      "event_id": "3726d57c"
+    },
+    {
+      "timestamp": 1786954792.547,
+      "sensor_type": "drop_count",
+      "value": 27.77,
+      "patient_id": "P103",
+      "event_id": "b11aacde"
+    },
+    {
+      "timestamp": 1786954786.367,
+      "sensor_type": "drop_count",
+      "value": 5.38,
+      "patient_id": "P101",
+      "event_id": "e5d4a66e"
+    },
+    {
+      "timestamp": 1786954788.868,
+      "sensor_type": "drop_count",
+      "value": 11.48,
+      "patient_id": "P101",
+      "event_id": "efc3f2db"
+    },
+    {
+      "timestamp": 1786954795.67,
+      "sensor_type": "drop_count",
+      "value": 6.69,
+      "patient_id": "P103",
+      "event_id": "60c6e214"
+    },
+    {
+      "timestamp": 1786954788.349,
+      "sensor_type": "tremor",
+      "value": 0.351,
+      "patient_id": "P100",
+      "event_id": "4e988425"
+    },
+    {
+      "timestamp": 1786954797.817,
+      "sensor_type": "drop_count",
+      "value": 26.31,
+      "patient_id": "P102",
+      "event_id": "dfcdad67"
+    },
+    {
+      "timestamp": 1786954789.662,
+      "sensor_type": "tremor",
+      "value": 0.346,
+      "patient_id": "P100",
+      "event_id": "ddbb1753"
+    },
+    {
+      "timestamp": 1786954793.051,
+      "sensor_type": "drop_count",
+      "value": 7.64,
+      "patient_id": "P100",
+      "event_id": "9178ad58"
+    },
+    {
+      "timestamp": 1786954793.051,
+      "sensor_type": "drop_count",
+      "value": 7.64,
+      "patient_id": "P100",
+      "event_id": "9178ad58"
+    },
+    {
+      "timestamp": 1786954806.457,
+      "sensor_type": "drop_count",
+      "value": 10.93,
+      "patient_id": "P104",
+      "event_id": "93372361"
+    },
+    {
+      "timestamp": 1786954803.293,
+      "sensor_type": "drop_count",
+      "value": 21.59,
+      "patient_id": "P102",
+      "event_id": "c8c7e92e"
+    },
+    {
+      "timestamp": 1786954801.399,
+      "sensor_type": "drop_count",
+      "value": 5.76,
+      "patient_id": "P103",
+      "event_id": "5187dece"
+    },
+    {
+      "timestamp": 1786954793.984,
+      "sensor_type": "tremor",
+      "value": 0.406,
+      "patient_id": "P101",
+      "event_id": "b35dc91a"
+    },
+    {
+      "timestamp": 1786954811.507,
+      "sensor_type": "tremor",
+      "value": 0.465,
+      "patient_id": "P104",
+      "event_id": "cfa56889"
+    },
+    {
+      "timestamp": 1786954799.426,
+      "sensor_type": "tremor",
+      "value": 0.515,
+      "patient_id": "P101",
+      "event_id": "1bbf2310"
+    },
+    {
+      "timestamp": 1786954804.972,
+      "sensor_type": "drop_count",
+      "value": 24.2,
+      "patient_id": "P101",
+      "event_id": "0e8215d0"
+    },
+    {
+      "timestamp": 1786954804.972,
+      "sensor_type": "drop_count",
+      "value": 24.2,
+      "patient_id": "P101",
+      "event_id": "0e8215d0"
+    },
+    {
+      "timestamp": 1786954818.38,
+      "sensor_type": "drop_count",
+      "value": 13.66,
+      "patient_id": "P104",
+      "event_id": "b1bc2cdb"
+    },
+    {
+      "timestamp": 1786954805.607,
+      "sensor_type": "drop_count",
+      "value": 4.43,
+      "patient_id": "P103",
+      "event_id": "5b509e06"
+    },
+    {
+      "timestamp": 1786954799.389,
+      "sensor_type": "drop_count",
+      "value": 5.28,
+      "patient_id": "P100",
+      "event_id": "09b5ef54"
+    },
+    {
+      "timestamp": 1786954812.353,
+      "sensor_type": "drop_count",
+      "value": 13.69,
+      "patient_id": "P101",
+      "event_id": "cf01942f"
+    },
+    {
+      "timestamp": 1786954821.26,
+      "sensor_type": "tremor",
+      "value": 0.613,
+      "patient_id": "P104",
+      "event_id": "58c58a22"
+    },
+    {
+      "timestamp": 1786954825.104,
+      "sensor_type": "drop_count",
+      "value": 22.31,
+      "patient_id": "P104",
+      "event_id": "a37a960d"
+    },
+    {
+      "timestamp": 1786954809.536,
+      "sensor_type": "tremor",
+      "value": 0.627,
+      "patient_id": "P102",
+      "event_id": "54a80eac"
+    },
+    {
+      "timestamp": 1786954812.555,
+      "sensor_type": "drop_count",
+      "value": 4.15,
+      "patient_id": "P102",
+      "event_id": "954a69a2"
+    },
+    {
+      "timestamp": 1786954803.001,
+      "sensor_type": "tremor",
+      "value": 0.543,
+      "patient_id": "P100",
+      "event_id": "663ef05b"
+    },
+    {
+      "timestamp": 1786954832.7,
+      "sensor_type": "drop_count",
+      "value": 25.7,
+      "patient_id": "P104",
+      "event_id": "659e70de"
+    },
+    {
+      "timestamp": 1786954822.423,
+      "sensor_type": "tremor",
+      "value": 0.853,
+      "patient_id": "P104",
+      "event_id": "514ee9c1"
+    },
+    {
+      "timestamp": 1786954810.143,
+      "sensor_type": "drop_count",
+      "value": 14.65,
+      "patient_id": "P103",
+      "event_id": "6a069be0"
+    },
+    {
+      "timestamp": 1786954816.075,
+      "sensor_type": "tremor",
+      "value": 0.92,
+      "patient_id": "P103",
+      "event_id": "6793ff9e"
+    },
+    {
+      "timestamp": 1786954837.433,
+      "sensor_type": "drop_count",
+      "value": 2.52,
+      "patient_id": "P104",
+      "event_id": "ddf0d431"
+    },
+    {
+      "timestamp": 1786954815.899,
+      "sensor_type": "drop_count",
+      "value": 13.64,
+      "patient_id": "P102",
+      "event_id": "17e79c94"
+    },
+    {
+      "timestamp": 1786954818.467,
+      "sensor_type": "drop_count",
+      "value": 14.11,
+      "patient_id": "P103",
+      "event_id": "9af6da33"
+    },
+    {
+      "timestamp": 1786954817.729,
+      "sensor_type": "drop_count",
+      "value": 22.63,
+      "patient_id": "P101",
+      "event_id": "c796b293"
+    },
+    {
+      "timestamp": 1786954810.443,
+      "sensor_type": "drop_count",
+      "value": 14.21,
+      "patient_id": "P101",
+      "event_id": "78aa78b2"
+    },
+    {
+      "timestamp": 1786954807.73,
+      "sensor_type": "drop_count",
+      "value": 13.95,
+      "patient_id": "P100",
+      "event_id": "b5f81aca"
+    },
+    {
+      "timestamp": 1786954814.064,
+      "sensor_type": "drop_count",
+      "value": 28.94,
+      "patient_id": "P100",
+      "event_id": "5438b413"
+    },
+    {
+      "timestamp": 1786954814.064,
+      "sensor_type": "drop_count",
+      "value": 28.94,
+      "patient_id": "P100",
+      "event_id": "5438b413"
+    },
+    {
+      "timestamp": 1786954821.941,
+      "sensor_type": "drop_count",
+      "value": 2.28,
+      "patient_id": "P103",
+      "event_id": "fb5a9d1a"
+    },
+    {
+      "timestamp": 1786954822.776,
+      "sensor_type": "drop_count",
+      "value": 23.89,
+      "patient_id": "P102",
+      "event_id": "8c57617f"
+    },
+    {
+      "timestamp": 1786954822.776,
+      "sensor_type": "drop_count",
+      "value": 23.89,
+      "patient_id": "P102",
+      "event_id": "8c57617f"
+    },
+    {
+      "timestamp": 1786954823.793,
+      "sensor_type": "tremor",
+      "value": 0.013,
+      "patient_id": "P102",
+      "event_id": "85098a2d"
+    },
+    {
+      "timestamp": 1786954829.06,
+      "sensor_type": "tremor",
+      "value": 0.707,
+      "patient_id": "P102",
+      "event_id": "5eec6694"
+    },
+    {
+      "timestamp": 1786954834.179,
+      "sensor_type": "tremor",
+      "value": 0.465,
+      "patient_id": "P102",
+      "event_id": "3c05e857"
+    },
+    {
+      "timestamp": 1786954824.459,
+      "sensor_type": "drop_count",
+      "value": 8.37,
+      "patient_id": "P101",
+      "event_id": "d2116252"
+    },
+    {
+      "timestamp": 1786954824.964,
+      "sensor_type": "tremor",
+      "value": 0.851,
+      "patient_id": "P103",
+      "event_id": "24c443fe"
+    },
+    {
+      "timestamp": 1786954836.777,
+      "sensor_type": "tremor",
+      "value": 0.556,
+      "patient_id": "P102",
+      "event_id": "dfd9c0e0"
+    },
+    {
+      "timestamp": 1786954829.129,
+      "sensor_type": "drop_count",
+      "value": 20.72,
+      "patient_id": "P103",
+      "event_id": "676f9083"
+    },
+    {
+      "timestamp": 1786954816.771,
+      "sensor_type": "tremor",
+      "value": 0.692,
+      "patient_id": "P100",
+      "event_id": "c8848c5c"
+    },
+    {
+      "timestamp": 1786954840.511,
+      "sensor_type": "tremor",
+      "value": 0.352,
+      "patient_id": "P104",
+      "event_id": "1a1142b1"
+    },
+    {
+      "timestamp": 1786954827.326,
+      "sensor_type": "drop_count",
+      "value": 5.75,
+      "patient_id": "P101",
+      "event_id": "9bfbe1d9"
+    },
+    {
+      "timestamp": 1786954845.487,
+      "sensor_type": "drop_count",
+      "value": 24.98,
+      "patient_id": "P104",
+      "event_id": "c1525e50"
+    },
+    {
+      "timestamp": 1786954846.936,
+      "sensor_type": "drop_count",
+      "value": 29.23,
+      "patient_id": "P104",
+      "event_id": "6db2dd4e"
+    },
+    {
+      "timestamp": 1786954830.398,
+      "sensor_type": "drop_count",
+      "value": 17.22,
+      "patient_id": "P103",
+      "event_id": "737a6249"
+    },
+    {
+      "timestamp": 1786954819.164,
+      "sensor_type": "tremor",
+      "value": 0.114,
+      "patient_id": "P100",
+      "event_id": "bab02e0e"
+    },
+    {
+      "timestamp": 1786954820.802,
+      "sensor_type": "tremor",
+      "value": 0.085,
+      "patient_id": "P100",
+      "event_id": "164ee0b2"
+    },
+    {
+      "timestamp": 1786954853.367,
+      "sensor_type": "drop_count",
+      "value": 23.27,
+      "patient_id": "P104",
+      "event_id": "995ecf10"
+    },
+    {
+      "timestamp": 1786954861.292,
+      "sensor_type": "tremor",
+      "value": 0.569,
+      "patient_id": "P104",
+      "event_id": "9ccb1497"
+    },
+    {
+      "timestamp": 1786954832.517,
+      "sensor_type": "tremor",
+      "value": 0.66,
+      "patient_id": "P101",
+      "event_id": "ea0bc5b8"
+    },
+    {
+      "timestamp": 1786954824.366,
+      "sensor_type": "tremor",
+      "value": 0.291,
+      "patient_id": "P100",
+      "event_id": "a8e95fb8"
+    },
+    {
+      "timestamp": 1786954831.432,
+      "sensor_type": "drop_count",
+      "value": 27.72,
+      "patient_id": "P103",
+      "event_id": "ce209c7f"
+    },
+    {
+      "timestamp": 1786954836.206,
+      "sensor_type": "drop_count",
+      "value": 19.43,
+      "patient_id": "P101",
+      "event_id": "7ce4925a"
+    },
+    {
+      "timestamp": 1786954842.65,
+      "sensor_type": "tremor",
+      "value": 0.439,
+      "patient_id": "P101",
+      "event_id": "6e28715c"
+    },
+    {
+      "timestamp": 1786954841.03,
+      "sensor_type": "tremor",
+      "value": 0.438,
+      "patient_id": "P102",
+      "event_id": "c15eacf1"
+    },
+    {
+      "timestamp": 1786954863.67,
+      "sensor_type": "drop_count",
+      "value": 6.87,
+      "patient_id": "P104",
+      "event_id": "8976e290"
+    },
+    {
+      "timestamp": 1786954832.363,
+      "sensor_type": "tremor",
+      "value": 0.576,
+      "patient_id": "P100",
+      "event_id": "29a42cd4"
+    },
+    {
+      "timestamp": 1786954838.803,
+      "sensor_type": "drop_count",
+      "value": 29.91,
+      "patient_id": "P103",
+      "event_id": "ddff1605"
+    },
+    {
+      "timestamp": 1786954841.912,
+      "sensor_type": "tremor",
+      "value": 0.321,
+      "patient_id": "P103",
+      "event_id": "ae3cb7de"
+    },
+    {
+      "timestamp": 1786954844.574,
+      "sensor_type": "tremor",
+      "value": 0.814,
+      "patient_id": "P103",
+      "event_id": "e8bc6187"
+    },
+    {
+      "timestamp": 1786954842.4,
+      "sensor_type": "tremor",
+      "value": 0.865,
+      "patient_id": "P102",
+      "event_id": "f9cfb6aa"
+    },
+    {
+      "timestamp": 1786954842.4,
+      "sensor_type": "tremor",
+      "value": 0.865,
+      "patient_id": "P102",
+      "event_id": "f9cfb6aa"
+    },
+    {
+      "timestamp": 1786954848.173,
+      "sensor_type": "drop_count",
+      "value": 15.55,
+      "patient_id": "P103",
+      "event_id": "17e91049"
+    },
+    {
+      "timestamp": 1786954834.389,
+      "sensor_type": "drop_count",
+      "value": 27.83,
+      "patient_id": "P100",
+      "event_id": "7ef92fe6"
+    },
+    {
+      "timestamp": 1786954870.165,
+      "sensor_type": "unknown_sensor",
+      "value": 9.32,
+      "patient_id": "P104",
+      "event_id": "434f9e0d"
+    },
+    {
+      "timestamp": 1786954838.35,
+      "sensor_type": "drop_count",
+      "value": 19.43,
+      "patient_id": "P100",
+      "event_id": "72aee3dd"
+    },
+    {
+      "timestamp": 1786954846.016,
+      "sensor_type": "tremor",
+      "value": 0.98,
+      "patient_id": "P102",
+      "event_id": "06a09fe3"
+    },
+    {
+      "timestamp": 1786954874.476,
+      "sensor_type": "drop_count",
+      "value": 25.92,
+      "patient_id": "P104",
+      "event_id": "83b46cc1"
+    },
+    {
+      "timestamp": 1786954876.98,
+      "sensor_type": "drop_count",
+      "value": 8.49,
+      "patient_id": "P104",
+      "event_id": "fff99861"
+    },
+    {
+      "timestamp": 1786954855.163,
+      "sensor_type": "tremor",
+      "value": 0.539,
+      "patient_id": "P103",
+      "event_id": "9d269c1f"
+    },
+    {
+      "timestamp": 1786954862.659,
+      "sensor_type": "drop_count",
+      "value": 29.42,
+      "patient_id": "P103",
+      "event_id": "106e6add"
+    },
+    {
+      "timestamp": 1786954863.487,
+      "sensor_type": "tremor",
+      "value": 0.705,
+      "patient_id": "P103",
+      "event_id": "1fe28d6e"
+    },
+    {
+      "timestamp": 1786954846.865,
+      "sensor_type": "drop_count",
+      "value": 3.79,
+      "patient_id": "P101",
+      "event_id": "20a35a32"
+    },
+    {
+      "timestamp": 1786954864.734,
+      "sensor_type": "tremor",
+      "value": 0.015,
+      "patient_id": "P103",
+      "event_id": "cef6128a"
+    },
+    {
+      "timestamp": 1786954842.371,
+      "sensor_type": "tremor",
+      "value": 0.339,
+      "patient_id": "P100",
+      "event_id": "e571f657"
+    },
+    {
+      "timestamp": 1786954880.33,
+      "sensor_type": "tremor",
+      "value": 0.627,
+      "patient_id": "P104",
+      "event_id": "d6a07eae"
+    },
+    {
+      "timestamp": 1786954881.343,
+      "sensor_type": "tremor",
+      "value": 0.997,
+      "patient_id": "P104",
+      "event_id": "ce3f7085"
+    },
+    {
+      "timestamp": 1786954846.199,
+      "sensor_type": "tremor",
+      "value": 0.903,
+      "patient_id": "P100",
+      "event_id": "35891c5d"
+    },
+    {
+      "timestamp": 1786954849.746,
+      "sensor_type": "drop_count",
+      "value": 15.93,
+      "patient_id": "P102",
+      "event_id": "46cb0f1d"
+    },
+    {
+      "timestamp": 1786954851.27,
+      "sensor_type": "tremor",
+      "value": 0.62,
+      "patient_id": "P100",
+      "event_id": "6dcb2412"
+    },
+    {
+      "timestamp": 1786954870.019,
+      "sensor_type": "unknown_sensor",
+      "value": 0.255,
+      "patient_id": "P103",
+      "event_id": "2dcf62ea"
+    },
+    {
+      "timestamp": 1786954847.919,
+      "sensor_type": "tremor",
+      "value": 0.988,
+      "patient_id": "P101",
+      "event_id": "569fb330"
+    },
+    {
+      "timestamp": 1786954876.858,
+      "sensor_type": "drop_count",
+      "value": 29.98,
+      "patient_id": "P103",
+      "event_id": "a9d62b40"
+    },
+    {
+      "timestamp": 1786954854.557,
+      "sensor_type": "tremor",
+      "value": 0.022,
+      "patient_id": "P102",
+      "event_id": "3494547e"
+    },
+    {
+      "timestamp": 1786954836.581,
+      "sensor_type": "drop_count",
+      "value": 27.32,
+      "patient_id": "P102",
+      "event_id": "e62c8a81"
+    },
+    {
+      "timestamp": 1786954883.605,
+      "sensor_type": "tremor",
+      "value": 0.776,
+      "patient_id": "P103",
+      "event_id": "9f0b5405"
+    },
+    {
+      "timestamp": 1786954853.076,
+      "sensor_type": "drop_count",
+      "value": 18.85,
+      "patient_id": "P101",
+      "event_id": "8dfccc42"
+    },
+    {
+      "timestamp": 1786954884.355,
+      "sensor_type": "tremor",
+      "value": 0.732,
+      "patient_id": "P103",
+      "event_id": "3a594cee"
+    },
+    {
+      "timestamp": 1786954855.082,
+      "sensor_type": "tremor",
+      "value": 0.531,
+      "patient_id": "P101",
+      "event_id": "015e1d98"
+    },
+    {
+      "timestamp": 1786954892.11,
+      "sensor_type": "tremor",
+      "value": 0.747,
+      "patient_id": "P103",
+      "event_id": "3cc45f28"
+    },
+    {
+      "timestamp": 1786954861.238,
+      "sensor_type": "drop_count",
+      "value": 25.8,
+      "patient_id": "P101",
+      "event_id": "9ae40425"
+    },
+    {
+      "timestamp": 1786954884.587,
+      "sensor_type": "tremor",
+      "value": 0.014,
+      "patient_id": "P104",
+      "event_id": "1bac26e3"
+    },
+    {
+      "timestamp": 1786954859.441,
+      "sensor_type": "tremor",
+      "value": 0.108,
+      "patient_id": "P102",
+      "event_id": "341adc59"
+    },
+    {
+      "timestamp": 1786954859.441,
+      "sensor_type": "tremor",
+      "value": 0.108,
+      "patient_id": "P102",
+      "event_id": "341adc59"
+    },
+    {
+      "timestamp": 1786954887.547,
+      "sensor_type": "drop_count",
+      "value": 19.43,
+      "patient_id": "P104",
+      "event_id": "39de629b"
+    },
+    {
+      "timestamp": 1786954893.485,
+      "sensor_type": "drop_count",
+      "value": 28.39,
+      "patient_id": "P103",
+      "event_id": "380f51ec"
+    },
+    {
+      "timestamp": 1786954889.064,
+      "sensor_type": "tremor",
+      "value": 0.371,
+      "patient_id": "P104",
+      "event_id": "14e61bb6"
+    },
+    {
+      "timestamp": 1786954895.131,
+      "sensor_type": "drop_count",
+      "value": 26.56,
+      "patient_id": "P104",
+      "event_id": "ca926e6f"
+    },
+    {
+      "timestamp": 1786954860.187,
+      "sensor_type": "tremor",
+      "value": 0.217,
+      "patient_id": "P102",
+      "event_id": "bf1dc268"
+    },
+    {
+      "timestamp": 1786954864.77,
+      "sensor_type": "tremor",
+      "value": 0.061,
+      "patient_id": "P102",
+      "event_id": "e4778c55"
+    },
+    {
+      "timestamp": 1786954894.673,
+      "sensor_type": "drop_count",
+      "value": 19.25,
+      "patient_id": "P103",
+      "event_id": "636a4feb"
+    },
+    {
+      "timestamp": 1786954894.673,
+      "sensor_type": "drop_count",
+      "value": 19.25,
+      "patient_id": "P103",
+      "event_id": "636a4feb"
+    },
+    {
+      "timestamp": 1786954869.154,
+      "sensor_type": "drop_count",
+      "value": 2.06,
+      "patient_id": "P101",
+      "event_id": "84285d48"
+    },
+    {
+      "timestamp": 1786954872.118,
+      "sensor_type": "drop_count",
+      "value": 23.66,
+      "patient_id": "P101",
+      "event_id": "48ddfabb"
+    },
+    {
+      "timestamp": 1786954876.67,
+      "sensor_type": "drop_count",
+      "value": 3.3,
+      "patient_id": "P101",
+      "event_id": "e7c4d994"
+    },
+    {
+      "timestamp": 1786954881.586,
+      "sensor_type": "drop_count",
+      "value": 5.23,
+      "patient_id": "P101",
+      "event_id": "03273368"
+    },
+    {
+      "timestamp": 1786954855.342,
+      "sensor_type": "tremor",
+      "value": 0.513,
+      "patient_id": "P100",
+      "event_id": "04f440df"
+    },
+    {
+      "timestamp": 1786954861.296,
+      "sensor_type": "tremor",
+      "value": 0.458,
+      "patient_id": "P100",
+      "event_id": "77d44c49"
+    },
+    {
+      "timestamp": 1786954898.37,
+      "sensor_type": "drop_count",
+      "value": 14.71,
+      "patient_id": "P103",
+      "event_id": "d61197f8"
+    },
+    {
+      "timestamp": 1786954896.744,
+      "sensor_type": "drop_count",
+      "value": 8.25,
+      "patient_id": "P104",
+      "event_id": "48ef026c"
+    },
+    {
+      "timestamp": 1786954901.223,
+      "sensor_type": "tremor",
+      "value": 0.506,
+      "patient_id": "P104",
+      "event_id": "329b7273"
+    },
+    {
+      "timestamp": 1786954907.129,
+      "sensor_type": "drop_count",
+      "value": 12.9,
+      "patient_id": "P104",
+      "event_id": "7aa3fa6f"
+    },
+    {
+      "timestamp": 1786954901.99,
+      "sensor_type": "drop_count",
+      "value": 9.38,
+      "patient_id": "P103",
+      "event_id": "f95537d6"
+    },
+    {
+      "timestamp": 1786954902.993,
+      "sensor_type": "drop_count",
+      "value": 2.8,
+      "patient_id": "P103",
+      "event_id": "deddc733"
+    },
+    {
+      "timestamp": 1786954908.079,
+      "sensor_type": "tremor",
+      "value": 0.67,
+      "patient_id": "P104",
+      "event_id": "43189844"
+    },
+    {
+      "timestamp": 1786954910.004,
+      "sensor_type": "drop_count",
+      "value": 29.05,
+      "patient_id": "P103",
+      "event_id": "5787c27a"
+    },
+    {
+      "timestamp": 1786954883.247,
+      "sensor_type": "tremor",
+      "value": 0.224,
+      "patient_id": "P101",
+      "event_id": "74be9829"
+    },
+    {
+      "timestamp": 1786954869.576,
+      "sensor_type": "tremor",
+      "value": 0.845,
+      "patient_id": "P102",
+      "event_id": "c5a65411"
+    },
+    {
+      "timestamp": 1786954908.776,
+      "sensor_type": "tremor",
+      "value": 0.029,
+      "patient_id": "P104",
+      "event_id": "75b057a1"
+    },
+    {
+      "timestamp": 1786954870.122,
+      "sensor_type": "drop_count",
+      "value": 16.99,
+      "patient_id": "P102",
+      "event_id": "2f6d2ff9"
+    },
+    {
+      "timestamp": 1786954862.485,
+      "sensor_type": "drop_count",
+      "value": 11.29,
+      "patient_id": "P100",
+      "event_id": "e62c4db6"
+    },
+    {
+      "timestamp": 1786954876.448,
+      "sensor_type": "drop_count",
+      "value": 26.5,
+      "patient_id": "P102",
+      "event_id": "4b541a28"
+    },
+    {
+      "timestamp": 1786954870.224,
+      "sensor_type": "tremor",
+      "value": 0.662,
+      "patient_id": "P102",
+      "event_id": "4716642a"
+    },
+    {
+      "timestamp": 1786954915.057,
+      "sensor_type": "tremor",
+      "value": 0.273,
+      "patient_id": "P103",
+      "event_id": "4c5e7d70"
+    },
+    {
+      "timestamp": 1786954882.034,
+      "sensor_type": "tremor",
+      "value": 0.527,
+      "patient_id": "P102",
+      "event_id": "ea0a1aa8"
+    },
+    {
+      "timestamp": 1786954863.042,
+      "sensor_type": "tremor",
+      "value": 0.945,
+      "patient_id": "P100",
+      "event_id": "c57c5562"
+    },
+    {
+      "timestamp": 1786954863.6,
+      "sensor_type": "tremor",
+      "value": 0.176,
+      "patient_id": "P100",
+      "event_id": "9bf1eefb"
+    },
+    {
+      "timestamp": 1786954883.075,
+      "sensor_type": "drop_count",
+      "value": 13.09,
+      "patient_id": "P102",
+      "event_id": "869fe0cd"
+    },
+    {
+      "timestamp": 1786954919.858,
+      "sensor_type": "tremor",
+      "value": 0.29,
+      "patient_id": "P103",
+      "event_id": "e405068c"
+    },
+    {
+      "timestamp": 1786954912.727,
+      "sensor_type": "tremor",
+      "value": 0.088,
+      "patient_id": "P104",
+      "event_id": "20076845"
+    },
+    {
+      "timestamp": 1786954913.817,
+      "sensor_type": "tremor",
+      "value": 0.746,
+      "patient_id": "P104",
+      "event_id": "d48096e2"
+    },
+    {
+      "timestamp": 1786954868.08,
+      "sensor_type": "drop_count",
+      "value": 27.18,
+      "patient_id": "P100",
+      "event_id": "befb772c"
+    },
+    {
+      "timestamp": 1786954885.519,
+      "sensor_type": "drop_count",
+      "value": 7.68,
+      "patient_id": "P101",
+      "event_id": "04759ba7"
+    },
+    {
+      "timestamp": 1786954869.908,
+      "sensor_type": "tremor",
+      "value": 0.464,
+      "patient_id": "P100",
+      "event_id": "d2074fa3"
+    },
+    {
+      "timestamp": 1786954919.139,
+      "sensor_type": "tremor",
+      "value": 0.864,
+      "patient_id": "P104",
+      "event_id": "87bd2a06"
+    },
+    {
+      "timestamp": 1786954925.093,
+      "sensor_type": "tremor",
+      "value": 0.591,
+      "patient_id": "P103",
+      "event_id": "ed1823a0"
+    },
+    {
+      "timestamp": 1786954870.835,
+      "sensor_type": "tremor",
+      "value": 0.077,
+      "patient_id": "P100",
+      "event_id": "931c84fe"
+    },
+    {
+      "timestamp": 1786954922.523,
+      "sensor_type": "drop_count",
+      "value": 13.49,
+      "patient_id": "P104",
+      "event_id": "2a9d648a"
+    },
+    {
+      "timestamp": 1786954929.353,
+      "sensor_type": "drop_count",
+      "value": 13.52,
+      "patient_id": "P103",
+      "event_id": "6bbff364"
+    },
+    {
+      "timestamp": 1786954875.119,
+      "sensor_type": "drop_count",
+      "value": 1.17,
+      "patient_id": "P100",
+      "event_id": "f0b5802c"
+    },
+    {
+      "timestamp": 1786954924.213,
+      "sensor_type": "tremor",
+      "value": 0.918,
+      "patient_id": "P104",
+      "event_id": "2be028c6"
+    },
+    {
+      "timestamp": 1786954881.538,
+      "sensor_type": "tremor",
+      "value": 0.066,
+      "patient_id": "P100",
+      "event_id": "1d84d9cb"
+    },
+    {
+      "timestamp": 1786954931.263,
+      "sensor_type": "tremor",
+      "value": 0.082,
+      "patient_id": "P104",
+      "event_id": "2494c163"
+    },
+    {
+      "timestamp": 1786954930.82,
+      "sensor_type": "drop_count",
+      "value": 9.29,
+      "patient_id": "P103",
+      "event_id": "2c176871"
+    },
+    {
+      "timestamp": 1786954932.464,
+      "sensor_type": "unknown_sensor",
+      "value": 0.508,
+      "patient_id": "P104",
+      "event_id": "73fbb792"
+    },
+    {
+      "timestamp": 1786954932.76,
+      "sensor_type": "drop_count",
+      "value": 4.65,
+      "patient_id": "P103",
+      "event_id": "30bbf90c"
+    },
+    {
+      "timestamp": 1786954939.227,
+      "sensor_type": "drop_count",
+      "value": 19.86,
+      "patient_id": "P104",
+      "event_id": "bc2be583"
+    },
+    {
+      "timestamp": 1786954887.236,
+      "sensor_type": "drop_count",
+      "value": 21.64,
+      "patient_id": "P101",
+      "event_id": "07aa1999"
+    },
+    {
+      "timestamp": 1786954937.84,
+      "sensor_type": "tremor",
+      "value": 0.234,
+      "patient_id": "P103",
+      "event_id": "92cc1a4f"
+    },
+    {
+      "timestamp": 1786954890.495,
+      "sensor_type": "tremor",
+      "value": 0.462,
+      "patient_id": "P101",
+      "event_id": "94c14e85"
+    },
+    {
+      "timestamp": 1786954897.121,
+      "sensor_type": "drop_count",
+      "value": 26.19,
+      "patient_id": "P101",
+      "event_id": "2a278ada"
+    },
+    {
+      "timestamp": 1786954887.374,
+      "sensor_type": "drop_count",
+      "value": 8.55,
+      "patient_id": "P100",
+      "event_id": "01ee5706"
+    },
+    {
+      "timestamp": 1786954903.854,
+      "sensor_type": "drop_count",
+      "value": 28.39,
+      "patient_id": "P101",
+      "event_id": "0c82bfae"
+    },
+    {
+      "timestamp": 1786954890.986,
+      "sensor_type": "tremor",
+      "value": 0.502,
+      "patient_id": "P100",
+      "event_id": "e6de0920"
+    },
+    {
+      "timestamp": 1786954893.876,
+      "sensor_type": "drop_count",
+      "value": 25.18,
+      "patient_id": "P100",
+      "event_id": "51999851"
+    },
+    {
+      "timestamp": 1786954890.456,
+      "sensor_type": "tremor",
+      "value": 0.696,
+      "patient_id": "P102",
+      "event_id": "7431530b"
+    },
+    {
+      "timestamp": 1786954901.17,
+      "sensor_type": "drop_count",
+      "value": 7.68,
+      "patient_id": "P100",
+      "event_id": "6c1b6446"
+    },
+    {
+      "timestamp": 1786954942.902,
+      "sensor_type": "tremor",
+      "value": 0.238,
+      "patient_id": "P104",
+      "event_id": "50c90ecb"
+    },
+    {
+      "timestamp": 1786954946.83,
+      "sensor_type": "drop_count",
+      "value": 25.1,
+      "patient_id": "P104",
+      "event_id": "b2658f8b"
+    },
+    {
+      "timestamp": 1786954949.144,
+      "sensor_type": "unknown_sensor",
+      "value": 8.74,
+      "patient_id": "P104",
+      "event_id": "b53e6279"
+    },
+    {
+      "timestamp": 1786954905.596,
+      "sensor_type": "tremor",
+      "value": 0.068,
+      "patient_id": "P100",
+      "event_id": "0a2ec91c"
+    },
+    {
+      "timestamp": 1786954949.797,
+      "sensor_type": "tremor",
+      "value": 0.044,
+      "patient_id": "P104",
+      "event_id": "1d689a1f"
+    },
+    {
+      "timestamp": 1786954896.869,
+      "sensor_type": "tremor",
+      "value": 0.241,
+      "patient_id": "P102",
+      "event_id": "19b37703"
+    },
+    {
+      "timestamp": 1786954898.37,
+      "sensor_type": "tremor",
+      "value": 0.546,
+      "patient_id": "P102",
+      "event_id": "ec8b09ab"
+    },
+    {
+      "timestamp": 1786954945.696,
+      "sensor_type": "tremor",
+      "value": 0.632,
+      "patient_id": "P103",
+      "event_id": "8a99685c"
+    },
+    {
+      "timestamp": 1786954946.473,
+      "sensor_type": "drop_count",
+      "value": 1.31,
+      "patient_id": "P103",
+      "event_id": "cb376aa8"
+    },
+    {
+      "timestamp": 1786954946.473,
+      "sensor_type": "drop_count",
+      "value": 1.31,
+      "patient_id": "P103",
+      "event_id": "cb376aa8"
+    },
+    {
+      "timestamp": 1786954953.284,
+      "sensor_type": "tremor",
+      "value": 0.253,
+      "patient_id": "P104",
+      "event_id": "5d911cff"
+    },
+    {
+      "timestamp": 1786954912.589,
+      "sensor_type": "tremor",
+      "value": 0.273,
+      "patient_id": "P100",
+      "event_id": "4b2b71f7"
+    },
+    {
+      "timestamp": 1786954953.683,
+      "sensor_type": "tremor",
+      "value": 0.339,
+      "patient_id": "P103",
+      "event_id": "11b336f6"
+    },
+    {
+      "timestamp": 1786954955.784,
+      "sensor_type": "drop_count",
+      "value": 21.81,
+      "patient_id": "P104",
+      "event_id": "9a576c1e"
+    },
+    {
+      "timestamp": 1786954958.487,
+      "sensor_type": "drop_count",
+      "value": 2.4,
+      "patient_id": "P104",
+      "event_id": "fec0899f"
+    },
+    {
+      "timestamp": 1786954955.433,
+      "sensor_type": "tremor",
+      "value": 0.352,
+      "patient_id": "P103",
+      "event_id": "942d3316"
+    },
+    {
+      "timestamp": 1786954957.992,
+      "sensor_type": "drop_count",
+      "value": 2.25,
+      "patient_id": "P103",
+      "event_id": "97e7b2cc"
+    },
+    {
+      "timestamp": 1786954911.5,
+      "sensor_type": "drop_count",
+      "value": 25.46,
+      "patient_id": "P101",
+      "event_id": "88ea0f04"
+    },
+    {
+      "timestamp": 1786954917.839,
+      "sensor_type": "tremor",
+      "value": 0.362,
+      "patient_id": "P101",
+      "event_id": "33db88a5"
+    },
+    {
+      "timestamp": 1786954917.839,
+      "sensor_type": "tremor",
+      "value": 0.362,
+      "patient_id": "P101",
+      "event_id": "33db88a5"
+    },
+    {
+      "timestamp": 1786954965.608,
+      "sensor_type": "tremor",
+      "value": 0.444,
+      "patient_id": "P103",
+      "event_id": "36e1ec9f"
+    },
+    {
+      "timestamp": 1786954903.742,
+      "sensor_type": "drop_count",
+      "value": 28.82,
+      "event_id": "87144a74"
+    },
+    {
+      "timestamp": 1786954959.87,
+      "sensor_type": "tremor",
+      "value": 0.704,
+      "patient_id": "P104",
+      "event_id": "1131f541"
+    },
+    {
+      "timestamp": 1786954967.61,
+      "sensor_type": "drop_count",
+      "value": 25.58,
+      "patient_id": "P103",
+      "event_id": "d5d02053"
+    },
+    {
+      "timestamp": 1786954919.168,
+      "sensor_type": "tremor",
+      "value": 0.668,
+      "patient_id": "P100",
+      "event_id": "304d9084"
+    },
+    {
+      "timestamp": 1786954910.627,
+      "sensor_type": "drop_count",
+      "value": 23.81,
+      "patient_id": "P102",
+      "event_id": "093e66e8"
+    },
+    {
+      "timestamp": 1786954920.114,
+      "sensor_type": "tremor",
+      "value": 0.026,
+      "patient_id": "P101",
+      "event_id": "4665b8c9"
+    },
+    {
+      "timestamp": 1786954961.344,
+      "sensor_type": "drop_count",
+      "value": 1.97,
+      "patient_id": "P104",
+      "event_id": "21750be2"
+    },
+    {
+      "timestamp": 1786954973.879,
+      "sensor_type": "drop_count",
+      "value": 3.76,
+      "patient_id": "P103",
+      "event_id": "a387ddef"
+    },
+    {
+      "timestamp": 1786954964.428,
+      "sensor_type": "drop_count",
+      "value": 23.03,
+      "patient_id": "P104",
+      "event_id": "272231cb"
+    },
+    {
+      "timestamp": 1786954923.554,
+      "sensor_type": "tremor",
+      "value": 0.165,
+      "patient_id": "P100",
+      "event_id": "d57b30c0"
+    },
+    {
+      "timestamp": 1786954971.64,
+      "sensor_type": "drop_count",
+      "value": 7.52,
+      "patient_id": "P104",
+      "event_id": "8ccf39aa"
+    },
+    {
+      "timestamp": 1786954915.735,
+      "sensor_type": "drop_count",
+      "value": 15.08,
+      "patient_id": "P102",
+      "event_id": "e1dcabed"
+    },
+    {
+      "timestamp": 1786954977.544,
+      "sensor_type": "tremor",
+      "value": 0.843,
+      "patient_id": "P104",
+      "event_id": "432c83e2"
+    },
+    {
+      "timestamp": 1786954971.862,
+      "sensor_type": "tremor",
+      "value": 0.651,
+      "patient_id": "P104",
+      "event_id": "51507fc9"
+    },
+    {
+      "timestamp": 1786954981.169,
+      "sensor_type": "drop_count",
+      "value": 14.94,
+      "patient_id": "P104",
+      "event_id": "28fa4eef"
+    },
+    {
+      "timestamp": 1786954976.215,
+      "sensor_type": "tremor",
+      "value": 0.297,
+      "patient_id": "P103",
+      "event_id": "42896758"
+    },
+    {
+      "timestamp": 1786954980.198,
+      "sensor_type": "tremor",
+      "value": 0.607,
+      "patient_id": "P103",
+      "event_id": "023438da"
+    },
+    {
+      "timestamp": 1786954923.55,
+      "sensor_type": "drop_count",
+      "value": 22.82,
+      "patient_id": "P102",
+      "event_id": "a6c7c5f4"
+    },
+    {
+      "timestamp": 1786954926.06,
+      "sensor_type": "drop_count",
+      "value": 4.23,
+      "patient_id": "P100",
+      "event_id": "57d30e07"
+    },
+    {
+      "timestamp": 1786954982.56,
+      "sensor_type": "drop_count",
+      "value": 24.4,
+      "patient_id": "P103",
+      "event_id": "5533e0ea"
+    },
+    {
+      "timestamp": 1786954924.351,
+      "sensor_type": "tremor",
+      "value": 0.499,
+      "patient_id": "P101",
+      "event_id": "2d945491"
+    },
+    {
+      "timestamp": 1786954924.351,
+      "sensor_type": "tremor",
+      "value": 0.499,
+      "patient_id": "P101",
+      "event_id": "2d945491"
+    },
+    {
+      "timestamp": 1786954985.098,
+      "sensor_type": "drop_count",
+      "value": 6.45,
+      "patient_id": "P104",
+      "event_id": "254a521f"
+    },
+    {
+      "timestamp": 1786954985.204,
+      "sensor_type": "drop_count",
+      "value": 25.42,
+      "patient_id": "P103",
+      "event_id": "4674a6fb"
+    },
+    {
+      "timestamp": 1786954988.448,
+      "sensor_type": "tremor",
+      "value": 0.051,
+      "patient_id": "P103",
+      "event_id": "8110a40b"
+    },
+    {
+      "timestamp": 1786954992.73,
+      "sensor_type": "tremor",
+      "value": 0.825,
+      "patient_id": "P103",
+      "event_id": "8f001dcc"
+    },
+    {
+      "timestamp": 1786954929.514,
+      "sensor_type": "tremor",
+      "value": 0.558,
+      "patient_id": "P100",
+      "event_id": "2e1a61a9"
+    },
+    {
+      "timestamp": 1786954996.981,
+      "sensor_type": "drop_count",
+      "value": 1.17,
+      "patient_id": "P103",
+      "event_id": "b43aac44"
+    },
+    {
+      "timestamp": 1786954929.398,
+      "sensor_type": "drop_count",
+      "value": 9.84,
+      "patient_id": "P101",
+      "event_id": "b0b06777"
+    },
+    {
+      "timestamp": 1786954928.503,
+      "sensor_type": "tremor",
+      "value": 0.709,
+      "patient_id": "P102",
+      "event_id": "50b79af0"
+    },
+    {
+      "timestamp": 1786954937.363,
+      "sensor_type": "tremor",
+      "value": 0.797,
+      "patient_id": "P100",
+      "event_id": "aa1f0d22"
+    },
+    {
+      "timestamp": 1786954925.245,
+      "sensor_type": "drop_count",
+      "value": 21.64,
+      "patient_id": "P100",
+      "event_id": "f5c95778"
+    },
+    {
+      "timestamp": 1786954989.201,
+      "sensor_type": "tremor",
+      "value": 0.148,
+      "patient_id": "P104",
+      "event_id": "dbe2cc74"
+    },
+    {
+      "timestamp": 1786954989.201,
+      "sensor_type": "tremor",
+      "value": 0.148,
+      "patient_id": "P104",
+      "event_id": "dbe2cc74"
+    },
+    {
+      "timestamp": 1786954939.294,
+      "sensor_type": "tremor",
+      "value": 0.314,
+      "patient_id": "P100",
+      "event_id": "7ae1e47c"
+    },
+    {
+      "timestamp": 1786954996.605,
+      "sensor_type": "drop_count",
+      "value": 21.17,
+      "patient_id": "P104",
+      "event_id": "16a97051"
+    },
+    {
+      "timestamp": 1786955001.422,
+      "sensor_type": "tremor",
+      "value": 0.957,
+      "patient_id": "P103",
+      "event_id": "88d353c4"
+    },
+    {
+      "timestamp": 1786954933.579,
+      "sensor_type": "drop_count",
+      "value": 28.72,
+      "patient_id": "P102",
+      "event_id": "17c31f70"
+    },
+    {
+      "timestamp": 1786954939.863,
+      "sensor_type": "drop_count",
+      "value": 20.71,
+      "patient_id": "P102",
+      "event_id": "51d2ded6"
+    },
+    {
+      "timestamp": 1786954942.521,
+      "sensor_type": "tremor",
+      "value": 0.896,
+      "patient_id": "P102",
+      "event_id": "755184f7"
+    },
+    {
+      "timestamp": 1786954932.077,
+      "sensor_type": "tremor",
+      "value": 0.955,
+      "patient_id": "P101",
+      "event_id": "296f5079"
+    },
+    {
+      "timestamp": 1786955003.527,
+      "sensor_type": "tremor",
+      "value": 0.933,
+      "patient_id": "P103",
+      "event_id": "4be43fc4"
+    },
+    {
+      "timestamp": 1786954998.9,
+      "sensor_type": "drop_count",
+      "value": 20.1,
+      "patient_id": "P104",
+      "event_id": "5e1b06d7"
+    },
+    {
+      "timestamp": 1786955006.504,
+      "sensor_type": "tremor",
+      "value": 0.101,
+      "patient_id": "P103",
+      "event_id": "14210252"
+    },
+    {
+      "timestamp": 1786955006.504,
+      "sensor_type": "tremor",
+      "value": 0.101,
+      "patient_id": "P103",
+      "event_id": "14210252"
+    },
+    {
+      "timestamp": 1786954935.629,
+      "sensor_type": "tremor",
+      "value": 0.477,
+      "patient_id": "P101",
+      "event_id": "f0f4c72c"
+    },
+    {
+      "timestamp": 1786954946.604,
+      "sensor_type": "drop_count",
+      "value": 19.57,
+      "patient_id": "P100",
+      "event_id": "8e27b112"
+    },
+    {
+      "timestamp": 1786954953.953,
+      "sensor_type": "drop_count",
+      "value": 12.54,
+      "patient_id": "P100",
+      "event_id": "0fec0c44"
+    },
+    {
+      "timestamp": 1786954936.41,
+      "sensor_type": "tremor",
+      "value": 0.186,
+      "patient_id": "P100",
+      "event_id": "809a6106"
+    },
+    {
+      "timestamp": 1786954949.597,
+      "sensor_type": "drop_count",
+      "value": 8.95,
+      "patient_id": "P102",
+      "event_id": "8b974e73"
+    },
+    {
+      "timestamp": 1786955014.422,
+      "sensor_type": "tremor",
+      "value": 0.889,
+      "patient_id": "P103",
+      "event_id": "e8c0b422"
+    },
+    {
+      "timestamp": 1786954956.933,
+      "sensor_type": "tremor",
+      "value": 0.648,
+      "patient_id": "P100",
+      "event_id": "738e4827"
+    },
+    {
+      "timestamp": 1786954956.933,
+      "sensor_type": "tremor",
+      "value": 0.648,
+      "patient_id": "P100",
+      "event_id": "738e4827"
+    },
+    {
+      "timestamp": 1786954954.355,
+      "sensor_type": "drop_count",
+      "value": 5.26,
+      "patient_id": "P102",
+      "event_id": "f709942e"
+    },
+    {
+      "timestamp": 1786955001.859,
+      "sensor_type": "tremor",
+      "value": 0.669,
+      "patient_id": "P104",
+      "event_id": "5edc2445"
+    },
+    {
+      "timestamp": 1786954936.18,
+      "sensor_type": "tremor",
+      "value": 0.236,
+      "patient_id": "P101",
+      "event_id": "0f0d18d9"
+    },
+    {
+      "timestamp": 1786955002.445,
+      "sensor_type": "tremor",
+      "value": 0.693,
+      "patient_id": "P104",
+      "event_id": "73186a7b"
+    },
+    {
+      "timestamp": 1786955020.068,
+      "sensor_type": "tremor",
+      "value": 0.69,
+      "patient_id": "P103",
+      "event_id": "62a7dfd4"
+    },
+    {
+      "timestamp": 1786954938.323,
+      "sensor_type": "drop_count",
+      "value": 14.35,
+      "patient_id": "P101",
+      "event_id": "8a6376f6"
+    },
+    {
+      "timestamp": 1786955009.791,
+      "sensor_type": "drop_count",
+      "value": 22.86,
+      "patient_id": "P104",
+      "event_id": "7f4f6c6c"
+    },
+    {
+      "timestamp": 1786955013.642,
+      "sensor_type": "tremor",
+      "value": 0.078,
+      "patient_id": "P104",
+      "event_id": "72c845a1"
+    },
+    {
+      "timestamp": 1786955015.658,
+      "sensor_type": "drop_count",
+      "value": 4.94,
+      "patient_id": "P104",
+      "event_id": "e8b22478"
+    },
+    {
+      "timestamp": 1786955019.824,
+      "sensor_type": "tremor",
+      "value": 0.809,
+      "patient_id": "P104",
+      "event_id": "12bdc760"
+    },
+    {
+      "timestamp": 1786954961.624,
+      "sensor_type": "tremor",
+      "value": 0.723,
+      "patient_id": "P100",
+      "event_id": "c6e43fef"
+    },
+    {
+      "timestamp": 1786955020.872,
+      "sensor_type": "tremor",
+      "value": 0.345,
+      "patient_id": "P104",
+      "event_id": "b3694b28"
+    },
+    {
+      "timestamp": 1786954969.52,
+      "sensor_type": "tremor",
+      "value": 0.032,
+      "patient_id": "P100",
+      "event_id": "033473c5"
+    },
+    {
+      "timestamp": 1786955023.376,
+      "sensor_type": "tremor",
+      "value": 0.449,
+      "patient_id": "P103",
+      "event_id": "6c2f9872"
+    },
+    {
+      "timestamp": 1786955022.369,
+      "sensor_type": "tremor",
+      "value": 0.119,
+      "patient_id": "P104",
+      "event_id": "5a190d8b"
+    },
+    {
+      "timestamp": 1786954945.084,
+      "sensor_type": "drop_count",
+      "value": 29.35,
+      "patient_id": "P101",
+      "event_id": "13b9725f"
+    },
+    {
+      "timestamp": 1786955030.051,
+      "sensor_type": "drop_count",
+      "value": 13.82,
+      "patient_id": "P103",
+      "event_id": "c0da4c31"
+    },
+    {
+      "timestamp": 1786954970.262,
+      "sensor_type": "tremor",
+      "value": 0.615,
+      "patient_id": "P100",
+      "event_id": "bbd3cef8"
+    },
+    {
+      "timestamp": 1786954971.519,
+      "sensor_type": "drop_count",
+      "value": 13.39,
+      "patient_id": "P100",
+      "event_id": "f87b1458"
+    },
+    {
+      "timestamp": 1786954975.036,
+      "sensor_type": "drop_count",
+      "value": 16.19,
+      "patient_id": "P100",
+      "event_id": "a96928a4"
+    },
+    {
+      "timestamp": 1786954956.611,
+      "sensor_type": "tremor",
+      "value": 0.577,
+      "patient_id": "P102",
+      "event_id": "0cee7ae9"
+    },
+    {
+      "timestamp": 1786954952.977,
+      "sensor_type": "drop_count",
+      "value": 12.41,
+      "patient_id": "P101",
+      "event_id": "5d6fedc3"
+    },
+    {
+      "timestamp": 1786954958.172,
+      "sensor_type": "tremor",
+      "value": 0.556,
+      "patient_id": "P101",
+      "event_id": "65edd430"
+    },
+    {
+      "timestamp": 1786955036.445,
+      "sensor_type": "tremor",
+      "value": 0.696,
+      "patient_id": "P103",
+      "event_id": "0ddd146f"
+    },
+    {
+      "timestamp": 1786955026.421,
+      "sensor_type": "drop_count",
+      "value": 9.02,
+      "patient_id": "P104",
+      "event_id": "a8748d45"
+    },
+    {
+      "timestamp": 1786955030.016,
+      "sensor_type": "tremor",
+      "value": 0.557,
+      "patient_id": "P104",
+      "event_id": "95707b81"
+    },
+    {
+      "timestamp": 1786954982.452,
+      "sensor_type": "tremor",
+      "value": 0.092,
+      "patient_id": "P100",
+      "event_id": "dfc4fda1"
+    },
+    {
+      "timestamp": 1786955035.038,
+      "sensor_type": "drop_count",
+      "value": 5.64,
+      "patient_id": "P104",
+      "event_id": "20ef093e"
+    },
+    {
+      "timestamp": 1786955038.511,
+      "sensor_type": "tremor",
+      "value": 0.303,
+      "patient_id": "P103",
+      "event_id": "96579945"
+    },
+    {
+      "timestamp": 1786954988.554,
+      "sensor_type": "tremor",
+      "value": 0.914,
+      "patient_id": "P100",
+      "event_id": "f07066a0"
+    },
+    {
+      "timestamp": 1786954962.813,
+      "sensor_type": "tremor",
+      "value": 0.381,
+      "patient_id": "P101",
+      "event_id": "909007fd"
+    },
+    {
+      "timestamp": 1786955042.159,
+      "sensor_type": "tremor",
+      "value": 0.099,
+      "patient_id": "P104",
+      "event_id": "f457d347"
+    },
+    {
+      "timestamp": 1786954966.093,
+      "sensor_type": "tremor",
+      "value": 0.046,
+      "patient_id": "P101",
+      "event_id": "b9398935"
+    },
+    {
+      "timestamp": 1786954952.793,
+      "sensor_type": "tremor",
+      "value": 0.295,
+      "patient_id": "P101",
+      "event_id": "e0f47012"
+    },
+    {
+      "timestamp": 1786954969.067,
+      "sensor_type": "tremor",
+      "value": 0.57,
+      "patient_id": "P101",
+      "event_id": "3f314e7a"
+    },
+    {
+      "timestamp": 1786954959.041,
+      "sensor_type": "tremor",
+      "value": 0.967,
+      "patient_id": "P102",
+      "event_id": "ac23f7ee"
+    },
+    {
+      "timestamp": 1786954960.811,
+      "sensor_type": "tremor",
+      "value": 0.184,
+      "patient_id": "P102",
+      "event_id": "337ff3d5"
+    }
+  ]
+}

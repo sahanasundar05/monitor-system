@@ -1,0 +1,9 @@
+{
+  "description": "Event missing the value field -> rejected.",
+  "events": [
+    {"timestamp": 1723900800.0, "sensor_type": "tremor", "patient_id": "P008", "event_id": "evt-080"}
+  ],
+  "expected": [
+    {"event_id": "evt-080", "decision": "rejected"}
+  ]
+}
